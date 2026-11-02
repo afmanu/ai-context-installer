@@ -1,34 +1,47 @@
 # AI Context Installer
 
 > [!IMPORTANT]
-> When a user supplies this repository and asks to install or create their AI context, treat that as installation intent. Read `BOOTSTRAP.md` and start the installer. Do not merely summarize the repository or ask the user to write a longer installation prompt.
+> When a user supplies this repository and asks to install or create their AI context, treat that as installation intent. Read `BOOTSTRAP.md` and start the installer. Do not merely summarize the repository or ask for a longer installation prompt.
 
-AI Context Installer builds a portable collaboration profile for Claude and Codex. It combines a short guided conversation with user-approved CVs, documents, websites, social profiles, repositories and examples, then compiles the result into concise runtime instructions.
+AI Context Installer creates a portable profile that teaches an AI who a person is, what they use AI for and how it should collaborate with them.
 
-The product describes how an AI should understand and collaborate with a person. It is not a second brain, project tracker, database, RAG system, transcript archive or autonomous memory service.
+## Status
 
-## Quick start
+**Public beta candidate.** The package contract, structured profile, synthetic demo and local validation are implemented. Blind installations in fresh Claude and Codex sessions are still pending.
 
-Open Claude Code, Claude Co-Work with local folder access, or Codex and send:
+## The problem it solves
 
-```text
-Quiero instalar mi contexto para IA:
+Every new AI conversation tends to begin from zero. The user repeatedly explains their role, goals, expertise, preferred communication, approval boundaries and quality expectations. Generic memory or scattered instructions rarely form a complete, inspectable profile.
 
-https://github.com/afmanu/ai-context-installer
-```
+AI Context Installer converts that information into one verified collaboration profile that can travel with the user.
 
-The repository contains the remaining instructions. The profile is completed through at most six user interactions:
+## What it does
 
-1. initial scope questions;
-2. source contribution;
-3. detected gaps;
-4. collaboration contract review;
-5. calibration and closure;
-6. final approval.
+The installer combines:
 
-Sources should answer most fields. The installer asks only for information that remains missing, contradictory or unconfirmed.
+- a short guided conversation;
+- user-approved CVs, documents and existing profiles;
+- websites, social profiles and repositories supplied by the user;
+- examples of accepted and corrected AI work;
+- calibration of communication, autonomy and quality expectations.
 
-## What gets installed
+It compiles the result into concise runtime instructions plus structured provenance and completion evidence.
+
+This is a collaboration profile. It is not a second brain, project tracker, database, RAG system, transcript archive or autonomous memory service.
+
+## Who it is for
+
+It is useful for people who:
+
+- regularly use Claude or Codex for professional work;
+- are tired of repeating the same background and preferences;
+- want consistent behavior across projects and conversations;
+- need explicit privacy, approval and autonomy boundaries;
+- want an inspectable profile rather than hidden conversational memory.
+
+It may not be the right product if you want task management, note storage, automatic conversation memory or an operational content system.
+
+## What you get
 
 ```text
 my-ai-profile/
@@ -45,9 +58,54 @@ my-ai-profile/
     └── operating-guide.md
 ```
 
-`AI-CONTEXT.md` is the concise profile consumed during normal work. The `.ai-context/` files preserve the structured profile, source provenance, completion evidence and installation report.
+- `AI-CONTEXT.md` is the concise profile used during normal work.
+- `profile.json` stores the complete structured profile.
+- `sources.json` records approved provenance without copying source originals.
+- `coverage.json` proves which fields are complete and which gates passed.
+- `AGENTS.md` and `CLAUDE.md` route Codex and Claude to the same core profile.
 
-## Completion rule
+## Example uses
+
+After installation, an AI can:
+
+- adapt explanations to the user's real expertise;
+- communicate in the preferred level of detail and tone;
+- recommend decisions using confirmed criteria;
+- act autonomously only inside approved boundaries;
+- produce deliverables that match the user's quality expectations;
+- identify when context is missing instead of inventing it;
+- reuse the same collaboration profile across supported workspaces.
+
+Try:
+
+```text
+Read my AI context and explain briefly how you should collaborate with me before we start.
+```
+
+## Quick start
+
+Open Claude Code, Claude Co-Work with local folder access, or Codex and send:
+
+```text
+Quiero instalar mi contexto para IA:
+
+https://github.com/afmanu/ai-context-installer
+```
+
+The repository contains the remaining instructions. The user does not need to mention internal files, schemas or commands.
+
+## How installation works
+
+The profile is completed through at most six planned user interactions:
+
+1. initial scope questions;
+2. source contribution;
+3. detected gaps and conflicts;
+4. collaboration contract review;
+5. calibration and closure;
+6. final preview and approval.
+
+Sources should answer most fields. The installer asks only for information that remains missing, contradictory or unconfirmed.
 
 Installation is complete only when:
 
@@ -59,22 +117,40 @@ Installation is complete only when:
 - the user approves the final profile;
 - every installed file passes readback validation.
 
-The installer never fills gaps by presenting an inference as a confirmed fact.
+## Requirements and limitations
 
-## Safety defaults
+- Full installation requires an environment that can read this repository and write to a local destination.
+- The current beta targets Claude and Codex.
+- Other environments can still use `AI-CONTEXT.md` manually, but automatic setup is not yet verified there.
+- The initial version installs into a new dedicated folder and does not merge with an existing profile.
+- An inference is never presented as a confirmed fact.
+- A blocked or unverified installation is never reported as complete.
 
-- Read-only runtime and destination inspection starts automatically.
+See `INSTALL.md` and `QUICKSTART-ES.md` for detailed setup and recovery instructions.
+
+## Privacy and safety
+
 - Only sources explicitly supplied by the user may be consulted.
 - Source originals are not copied into the installed profile.
 - Credentials, authentication material and sensitive identifiers are never requested or stored.
 - No global agent configuration is modified.
-- The complete profile and destination require final approval before installation.
+- Read-only inspection happens before any write.
+- The complete profile and destination require final approval.
 
-## Development status
+## Demo and development
 
-This repository is a local beta candidate. Initial validation targets Claude and Codex using a new dedicated destination folder. See `QUICKSTART-ES.md`, `INSTALL.md` and `examples/demo-context/`.
+- Synthetic demo: `examples/demo-context/`
+- Spanish quick start: `QUICKSTART-ES.md`
+- Installation modes: `INSTALL.md`
+- Beta test matrix: `docs/beta-testing.md`
+
+Validate the repository with:
+
+```text
+npm test
+npm run validate
+```
 
 ## License
 
 MIT. See `LICENSE`.
-
