@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.2.0",
+  "source_policy": {
+    "scope": "explicitly_supplied_only",
+    "retain_originals": false,
+    "retention": "metadata_and_approved_claims_only"
+  },
+  "sources": [
+    {
+      "source_id": "src-001",
+      "type": "direct_user_input",
+      "label": "Six-interaction onboarding",
+      "location": "installation conversation",
+      "scope": ["scope", "identity", "objectives", "collaboration", "privacy"],
+      "authored_by_user": true,
+      "current": true,
+      "authority": "authoritative",
+      "permission": "approved",
+      "retention": "approved_claims_only",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "source_id": "src-002",
+      "type": "cv",
+      "label": "Synthetic professional CV",
+      "location": "source-not-retained",
+      "scope": ["identity", "expertise", "consultant"],
+      "authored_by_user": true,
+      "current": true,
+      "authority": "supporting",
+      "permission": "approved",
+      "retention": "metadata_only",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "source_id": "src-003",
+      "type": "document",
+      "label": "Synthetic working guide",
+      "location": "source-not-retained",
+      "scope": ["expertise", "working_style", "environment"],
+      "authored_by_user": true,
+      "current": true,
+      "authority": "supporting",
+      "permission": "approved",
+      "retention": "metadata_only",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "source_id": "src-004",
+      "type": "calibration",
+      "label": "Synthetic calibration choices",
+      "location": "interaction-5",
+      "scope": ["communication", "decisions", "quality"],
+      "authored_by_user": true,
+      "current": true,
+      "authority": "authoritative",
+      "permission": "approved",
+      "retention": "approved_choices_only",
+      "accessed_at": "2026-11-02"
+    }
+  ]
+}
+

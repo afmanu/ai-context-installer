@@ -1,15 +1,12 @@
-# Personal AI context
+# Personal AI collaboration profile
 
-Before answering a context-dependent request, read `.ai-context/operating-guide.md` and only the context files needed for the task.
+Before a context-dependent request, read `AI-CONTEXT.md` and `.ai-context/operating-guide.md`.
 
-Rules:
+- Apply confirmed and calibrated profile rules.
+- Respect approval, privacy and storage boundaries.
+- Do not treat source metadata as permission to reopen a source.
+- Do not store chat content automatically.
+- Never request or store secrets.
 
-- confirmed context is authoritative within its recorded scope;
-- proposals, unknowns and inferences must remain labeled;
-- follow `BOUNDARIES.md`;
-- do not store conversation content automatically;
-- preview and obtain approval before editing context;
-- never request or store secrets.
-
-Use the workflows in `.ai-context/workflows/`.
+Use `.ai-context/profile.json` only when structured detail or provenance is needed.
 

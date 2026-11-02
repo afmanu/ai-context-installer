@@ -1,27 +1,26 @@
 # Start here
 
-This folder contains your approved AI collaboration context.
+This folder contains your approved AI collaboration profile.
 
 ## How to use it
 
-Open or attach this folder in Claude or Codex. The agent entry files route to `.ai-context/operating-guide.md`.
+Open or attach this folder in Claude or Codex. The runtime entry files route the agent to `AI-CONTEXT.md` and `.ai-context/operating-guide.md`.
 
 Try:
 
 ```text
-Prepare a situation brief using only my confirmed context.
+Read my profile and tell me how you should collaborate with me before starting a task.
 ```
 
-To save or correct context, ask explicitly. The agent must show a preview before changing a context file.
+## Files
 
-## Context files
+- `AI-CONTEXT.md`: concise human-readable collaboration profile.
+- `AGENTS.md`: Codex and compatible agent entrypoint.
+- `CLAUDE.md`: Claude entrypoint.
+- `.ai-context/profile.json`: complete structured profile.
+- `.ai-context/sources.json`: approved source metadata.
+- `.ai-context/coverage.json`: completion evidence.
+- `.ai-context/installation-report.md`: verification result.
 
-- `PROFILE.md`: role, responsibilities and working preferences.
-- `PRIORITIES.md`: current focus and review conditions.
-- `PROJECTS.md`: active project state and next steps.
-- `DECISIONS.md`: decisions and meaningful corrections.
-- `BOUNDARIES.md`: approvals, prohibitions and privacy limits.
-- `INBOX.md`: unclassified material that is not yet durable context.
-
-Unknown information stays unknown until you confirm it.
+This profile does not store projects, tasks, notes, conversation history or secrets.
 

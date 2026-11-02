@@ -1,8 +1,8 @@
 # Claude runtime
 
-Claude Code may install directly when it has approved filesystem access. Claude Co-Work may install directly only when the active session can access the repository and approved destination.
+Claude Code may install directly when it has approved filesystem access. Claude Co-Work may install directly only when the active session can access the repository, destination and user-supplied sources.
 
-Do not assume chat, mobile or Co-Work has local access. Detect capability first. If local writes are unavailable, provide a handoff to Claude Code and mark installation as blocked or manual; do not claim completion.
+Detect local, document and URL access before interaction 1. Do not assume chat, mobile or Co-Work can read local files. If an approved source is unavailable, request an export or pasted excerpt during interaction 2.
 
-Use `CLAUDE.md` as the installed entrypoint and keep `AGENTS.md` for portability.
+Use `CLAUDE.md` as the installed entrypoint and keep `AGENTS.md` for portability. If local writes are unavailable, mark installation blocked or provide a Claude Code handoff; do not claim completion.
 

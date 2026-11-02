@@ -3,18 +3,24 @@
 ## Continue an interrupted installation
 
 ```text
-Continue the AI Context installation. Read BOOTSTRAP.md, specs/setup-state-machine.md and the approved destination's .ai-context/state.md. Resume from the last verified state without repeating confirmed questions or overwriting files.
+Continue the AI Context installation. Read BOOTSTRAP.md, specs/setup-state-machine.md and the approved destination's .ai-context/state.md. Resume at the first incomplete gate without repeating resolved questions or reprocessing unchanged sources.
 ```
 
 ## Repair a partial output
 
 ```text
-Read specs/output-contract.md and the installed .ai-context/installation-report.md. Identify missing generated files, preview only the repairs, preserve existing files and ask before writing.
+Read specs/completion-schema.md, specs/output-contract.md and the installed .ai-context/installation-report.md. Identify missing generated files or failed gates, preview only the repairs, preserve user changes and ask before writing.
 ```
 
-## Context appears incorrect
+## Profile appears incorrect
 
 ```text
-Use .ai-context/workflows/capture-context.md. Show which current statement conflicts with my correction, propose the replacement and supersession record, and wait for approval before updating files.
+Compare AI-CONTEXT.md with .ai-context/profile.json and the relevant approved claim. Show the proposed structured and compiled diff, update provenance and coverage, and wait for approval before writing.
+```
+
+## Add a new use case
+
+```text
+Treat this as a profile expansion. Activate only the required module, analyze approved sources for its fields, present all remaining gaps together, recalibrate affected behaviors and preview the final diff before writing.
 ```
 

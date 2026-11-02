@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "schema_version": "0.2.0",
+    "profile_id": null,
+    "created_at": null,
+    "last_verified": null,
+    "status": "draft"
+  },
+  "scope": {
+    "target_runtimes": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "activated_use_cases": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "activated_modules": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "excluded_domains": { "value": null, "status": "missing", "source_ids": [], "last_verified": null }
+  },
+  "identity": {
+    "preferred_name": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "professional_summary": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "roles": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "responsibilities": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "sectors": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "audiences": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "public_private_distinction": { "value": null, "status": "missing", "source_ids": [], "last_verified": null }
+  },
+  "objectives": {
+    "desired_outcomes": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "recurring_uses": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "non_goals": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "success_signals": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "current_frustrations": { "value": null, "status": "missing", "source_ids": [], "last_verified": null }
+  },
+  "expertise": {
+    "advanced_areas": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "intermediate_areas": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "learning_areas": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "assumed_knowledge": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "explain_when": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "methods_and_frameworks": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "terminology": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "trusted_source_types": { "value": null, "status": "missing", "source_ids": [], "last_verified": null }
+  },
+  "collaboration_contract": {
+    "working_style": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "communication": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "reasoning_and_decisions": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "autonomy_and_approvals": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "environment": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "outputs_and_quality": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "privacy_and_retention": { "value": null, "status": "missing", "source_ids": [], "last_verified": null }
+  },
+  "specializations": {},
+  "quality": {
+    "success_criteria_by_use_case": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "critical_failure_modes": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "approved_examples": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "rejected_examples": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "calibration_choices": { "value": null, "status": "missing", "source_ids": [], "last_verified": null },
+    "validation_results": { "value": null, "status": "missing", "source_ids": [], "last_verified": null }
+  }
+}
+

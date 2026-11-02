@@ -1,0 +1,92 @@
+{
+  "schema_version": "0.2.0",
+  "universal": [
+    { "path": "scope.target_runtimes", "critical": false },
+    { "path": "scope.activated_use_cases", "critical": true },
+    { "path": "scope.excluded_domains", "critical": true },
+    { "path": "identity.preferred_name", "critical": false },
+    { "path": "identity.professional_summary", "critical": true },
+    { "path": "identity.roles", "critical": true },
+    { "path": "identity.responsibilities", "critical": true },
+    { "path": "identity.sectors", "critical": false },
+    { "path": "identity.audiences", "critical": false },
+    { "path": "identity.public_private_distinction", "critical": false },
+    { "path": "objectives.desired_outcomes", "critical": true },
+    { "path": "objectives.recurring_uses", "critical": true },
+    { "path": "objectives.non_goals", "critical": false },
+    { "path": "objectives.success_signals", "critical": true },
+    { "path": "objectives.current_frustrations", "critical": false },
+    { "path": "expertise.advanced_areas", "critical": false },
+    { "path": "expertise.intermediate_areas", "critical": false },
+    { "path": "expertise.learning_areas", "critical": false },
+    { "path": "expertise.assumed_knowledge", "critical": true },
+    { "path": "expertise.explain_when", "critical": true },
+    { "path": "expertise.methods_and_frameworks", "critical": false },
+    { "path": "expertise.terminology", "critical": false },
+    { "path": "expertise.trusted_source_types", "critical": false },
+    { "path": "collaboration_contract.working_style", "critical": true },
+    { "path": "collaboration_contract.communication", "critical": true },
+    { "path": "collaboration_contract.reasoning_and_decisions", "critical": true },
+    { "path": "collaboration_contract.autonomy_and_approvals", "critical": true },
+    { "path": "collaboration_contract.environment", "critical": true },
+    { "path": "collaboration_contract.outputs_and_quality", "critical": true },
+    { "path": "collaboration_contract.privacy_and_retention", "critical": true },
+    { "path": "quality.success_criteria_by_use_case", "critical": true },
+    { "path": "quality.critical_failure_modes", "critical": true },
+    { "path": "quality.approved_examples", "critical": false },
+    { "path": "quality.rejected_examples", "critical": false },
+    { "path": "quality.calibration_choices", "critical": true },
+    { "path": "quality.validation_results", "critical": true }
+  ],
+  "modules": {
+    "creator": [
+      { "path": "specializations.creator.audience", "critical": true },
+      { "path": "specializations.creator.positioning", "critical": true },
+      { "path": "specializations.creator.voice", "critical": true },
+      { "path": "specializations.creator.channels_and_formats", "critical": false },
+      { "path": "specializations.creator.representative_samples", "critical": false },
+      { "path": "specializations.creator.publication_rules", "critical": true }
+    ],
+    "developer": [
+      { "path": "specializations.developer.stack", "critical": true },
+      { "path": "specializations.developer.repository_conventions", "critical": false },
+      { "path": "specializations.developer.code_style", "critical": false },
+      { "path": "specializations.developer.testing", "critical": true },
+      { "path": "specializations.developer.dependency_policy", "critical": true },
+      { "path": "specializations.developer.security_and_documentation", "critical": true }
+    ],
+    "founder_and_strategy": [
+      { "path": "specializations.founder_and_strategy.business_context", "critical": true },
+      { "path": "specializations.founder_and_strategy.decision_criteria", "critical": true },
+      { "path": "specializations.founder_and_strategy.risk_tolerance", "critical": true },
+      { "path": "specializations.founder_and_strategy.time_horizon", "critical": false },
+      { "path": "specializations.founder_and_strategy.stakeholders", "critical": false },
+      { "path": "specializations.founder_and_strategy.tradeoffs", "critical": true }
+    ],
+    "research": [
+      { "path": "specializations.research.evidence_threshold", "critical": true },
+      { "path": "specializations.research.citation_requirements", "critical": false },
+      { "path": "specializations.research.source_hierarchy", "critical": true },
+      { "path": "specializations.research.recency", "critical": false },
+      { "path": "specializations.research.claim_separation", "critical": false },
+      { "path": "specializations.research.acceptable_uncertainty", "critical": false }
+    ],
+    "consultant": [
+      { "path": "specializations.consultant.client_types", "critical": false },
+      { "path": "specializations.consultant.diagnostic_approach", "critical": false },
+      { "path": "specializations.consultant.proposal_structure", "critical": false },
+      { "path": "specializations.consultant.confidentiality", "critical": true },
+      { "path": "specializations.consultant.deliverable_standards", "critical": true },
+      { "path": "specializations.consultant.stakeholder_communication", "critical": false }
+    ],
+    "learning": [
+      { "path": "specializations.learning.current_level", "critical": true },
+      { "path": "specializations.learning.objectives", "critical": true },
+      { "path": "specializations.learning.explanation_depth", "critical": false },
+      { "path": "specializations.learning.example_preference", "critical": false },
+      { "path": "specializations.learning.practice_and_feedback", "critical": false },
+      { "path": "specializations.learning.answer_reveal_policy", "critical": false }
+    ]
+  }
+}
+

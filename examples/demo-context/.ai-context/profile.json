@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "schema_version": "0.2.0",
+    "profile_id": "demo-alex-rivera",
+    "created_at": "2026-11-02",
+    "last_verified": "2026-11-02",
+    "status": "complete"
+  },
+  "scope": {
+    "target_runtimes": {
+      "value": ["Claude", "Codex"],
+      "status": "confirmed",
+      "source_ids": ["src-001"],
+      "last_verified": "2026-11-02"
+    },
+    "activated_use_cases": {
+      "value": ["process analysis", "automation design", "client deliverables", "research"],
+      "status": "confirmed",
+      "source_ids": ["src-001"],
+      "last_verified": "2026-11-02"
+    },
+    "activated_modules": {
+      "value": ["consultant", "research"],
+      "status": "confirmed",
+      "source_ids": ["src-001"],
+      "last_verified": "2026-11-02"
+    },
+    "excluded_domains": {
+      "value": ["private conversations", "personal finances", "client personal data"],
+      "status": "confirmed",
+      "source_ids": ["src-001"],
+      "last_verified": "2026-11-02"
+    }
+  },
+  "identity": {
+    "preferred_name": {
+      "value": "Alex",
+      "status": "confirmed",
+      "source_ids": ["src-001"],
+      "last_verified": "2026-11-02"
+    },
+    "professional_summary": {
+      "value": "Independent operations and AI-workflow consultant for small service businesses.",
+      "status": "confirmed",
+      "source_ids": ["src-001", "src-002"],
+      "last_verified": "2026-11-02"
+    },
+    "roles": {
+      "value": ["consultant", "systems designer", "client facilitator"],
+      "status": "confirmed",
+      "source_ids": ["src-001", "src-002"],
+      "last_verified": "2026-11-02"
+    },
+    "responsibilities": {
+      "value": ["analyze processes", "design workflows", "prepare client recommendations"],
+      "status": "confirmed",
+      "source_ids": ["src-001", "src-002"],
+      "last_verified": "2026-11-02"
+    },
+    "sectors": {
+      "value": ["professional services", "small business operations"],
+      "status": "confirmed",
+      "source_ids": ["src-002"],
+      "last_verified": "2026-11-02"
+    },
+    "audiences": {
+      "value": ["small-business owners", "operations leads"],
+      "status": "confirmed",
+      "source_ids": ["src-002"],
+      "last_verified": "2026-11-02"
+    },
+    "public_private_distinction": {
+      "value": "Professional context only; private life is excluded.",
+      "status": "confirmed",
+      "source_ids": ["src-001"],
+      "last_verified": "2026-11-02"
+    }
+  },
+  "objectives": {
+    "desired_outcomes": {
+      "value": ["clear process diagnosis", "maintainable automation design", "client-ready deliverables", "verified research"],
+      "status": "confirmed",
+      "source_ids": ["src-001"],
+      "last_verified": "2026-11-02"
+    },
+    "recurring_uses": {
+      "value": ["analyze workflows", "compare tools", "draft proposals", "synthesize evidence"],
+      "status": "confirmed",
+      "source_ids": ["src-001", "src-003"],
+      "last_verified": "2026-11-02"
+    },
+    "non_goals": {
+      "value": ["autonomous publication", "automatic client communication", "personal-life management"],
+      "status": "confirmed",
+      "source_ids": ["src-001"],
+      "last_verified": "2026-11-02"
+    },
+    "success_signals": {
+      "value": ["recommendations are specific", "technical choices are explained by impact", "deliverables are verified"],
+      "status": "calibrated",
+      "source_ids": ["src-001", "src-004"],
+      "last_verified": "2026-11-02"
+    },
+    "current_frustrations": {
+      "value": ["generic recommendations", "unnecessary questions", "unverified completion claims"],
+      "status": "confirmed",
+      "source_ids": ["src-001"],
+      "last_verified": "2026-11-02"
+    }
+  },
+  "expertise": {
+    "advanced_areas": {
+      "value": ["operations", "process design", "consulting"],
+      "status": "confirmed",
+      "source_ids": ["src-001", "src-002"],
+      "last_verified": "2026-11-02"
+    },
+    "intermediate_areas": {
+      "value": ["automation", "AI agents"],
+      "status": "confirmed",
+      "source_ids": ["src-001", "src-003"],
+      "last_verified": "2026-11-02"
+    },
+    "learning_areas": {
+      "value": ["programming", "infrastructure security"],
+      "status": "confirmed",
+      "source_ids": ["src-001"],
+      "last_verified": "2026-11-02"
+    },
+    "assumed_knowledge": {
+      "value": ["business operations vocabulary", "process mapping", "automation concepts"],
+      "status": "confirmed",
+      "source_ids": ["src-001"],
+      "last_verified": "2026-11-02"
+    },
+    "explain_when": {
+      "value": ["advanced code", "infrastructure", "security trade-offs"],
+      "status": "confirmed",
+      "source_ids": ["src-001"],
+      "last_verified": "2026-11-02"
+    },
+    "methods_and_frameworks": {
+      "value": ["systems thinking", "constraint analysis", "validation with real cases"],
+      "status": "confirmed",
+      "source_ids": ["src-002", "src-003"],
+      "last_verified": "2026-11-02"
+    },
+    "terminology": {
+      "value": ["process", "workflow", "automation", "agent"],
+      "status": "confirmed",
+      "source_ids": ["src-003"],
+      "last_verified": "2026-11-02"
+    },
+    "trusted_source_types": {
+      "value": ["official documentation", "source repositories", "primary research"],
+      "status": "confirmed",
+      "source_ids": ["src-001"],
+      "last_verified": "2026-11-02"
+    }
+  },
+  "collaboration_contract": {
+    "working_style": {
+      "value": "Inspect available context first; act directly on simple reversible work; provide a short approach for complex work; report milestones and blockers; verify before completion.",
+      "status": "confirmed",
+      "source_ids": ["src-001", "src-003"],
+      "last_verified": "2026-11-02"
+    },
+    "communication": {
+      "value": "Spanish, direct and professional; conclusion first; concise by default; use tables only for real comparisons; separate facts, inferences and estimates.",
+      "status": "calibrated",
+      "source_ids": ["src-001", "src-004"],
+      "last_verified": "2026-11-02"
+    },
+    "reasoning_and_decisions": {
+      "value": "Compare two to four viable alternatives, recommend one, explain trade-offs and prioritize utility, simplicity, maintainability and reversibility.",
+      "status": "calibrated",
+      "source_ids": ["src-004"],
+      "last_verified": "2026-11-02"
+    },
+    "autonomy_and_approvals": {
+      "value": "Analysis, approved-source research and drafts are allowed. Ask before dependency installation, deletion, publication, communication, service connections or external-state changes.",
+      "status": "confirmed",
+      "source_ids": ["src-001", "src-004"],
+      "last_verified": "2026-11-02"
+    },
+    "environment": {
+      "value": "Windows 11, Claude, Codex, GitHub, Markdown and JSON.",
+      "status": "confirmed",
+      "source_ids": ["src-001", "src-003"],
+      "last_verified": "2026-11-02"
+    },
+    "outputs_and_quality": {
+      "value": "Lead with the result, include relevant evidence and risks, and verify that the deliverable exists and meets the request before calling it complete.",
+      "status": "calibrated",
+      "source_ids": ["src-004"],
+      "last_verified": "2026-11-02"
+    },
+    "privacy_and_retention": {
+      "value": "Exclude client personal data, credentials, detailed financial information, private conversations and unprovided sources. Retain source metadata and approved claims only.",
+      "status": "confirmed",
+      "source_ids": ["src-001"],
+      "last_verified": "2026-11-02"
+    }
+  },
+  "specializations": {
+    "consultant": {
+      "client_types": {
+        "value": ["small service businesses", "operations leads"],
+        "status": "confirmed",
+        "source_ids": ["src-002"],
+        "last_verified": "2026-11-02"
+      },
+      "diagnostic_approach": {
+        "value": "Map the current process, identify friction and distinguish symptoms from root causes.",
+        "status": "confirmed",
+        "source_ids": ["src-001", "src-002"],
+        "last_verified": "2026-11-02"
+      },
+      "proposal_structure": {
+        "value": ["diagnosis", "scope", "deliverables", "risks", "next action"],
+        "status": "confirmed",
+        "source_ids": ["src-001"],
+        "last_verified": "2026-11-02"
+      },
+      "confidentiality": {
+        "value": "Exclude client personal data and never reuse one client's private information for another.",
+        "status": "confirmed",
+        "source_ids": ["src-001"],
+        "last_verified": "2026-11-02"
+      },
+      "deliverable_standards": {
+        "value": "Client-ready, specific, verified and explicit about assumptions and dependencies.",
+        "status": "calibrated",
+        "source_ids": ["src-004"],
+        "last_verified": "2026-11-02"
+      },
+      "stakeholder_communication": {
+        "value": "Translate technical decisions into operational impact and a clear next decision.",
+        "status": "confirmed",
+        "source_ids": ["src-001", "src-002"],
+        "last_verified": "2026-11-02"
+      }
+    },
+    "research": {
+      "evidence_threshold": {
+        "value": "Verify claims that affect recommendations, costs, compatibility or risk.",
+        "status": "confirmed",
+        "source_ids": ["src-001"],
+        "last_verified": "2026-11-02"
+      },
+      "citation_requirements": {
+        "value": "Link material factual claims to the most direct available source.",
+        "status": "confirmed",
+        "source_ids": ["src-001"],
+        "last_verified": "2026-11-02"
+      },
+      "source_hierarchy": {
+        "value": ["official documentation", "source repositories", "primary research", "reputable secondary analysis"],
+        "status": "confirmed",
+        "source_ids": ["src-001"],
+        "last_verified": "2026-11-02"
+      },
+      "recency": {
+        "value": "Verify temporally unstable information at task time.",
+        "status": "confirmed",
+        "source_ids": ["src-001"],
+        "last_verified": "2026-11-02"
+      },
+      "claim_separation": {
+        "value": "Label facts, inferences and estimates separately.",
+        "status": "calibrated",
+        "source_ids": ["src-004"],
+        "last_verified": "2026-11-02"
+      },
+      "acceptable_uncertainty": {
+        "value": "State uncertainty explicitly and explain what evidence would resolve it.",
+        "status": "calibrated",
+        "source_ids": ["src-004"],
+        "last_verified": "2026-11-02"
+      }
+    }
+  },
+  "quality": {
+    "success_criteria_by_use_case": {
+      "value": ["diagnoses are specific", "recommendations name trade-offs", "research is sourced", "outputs are client-ready"],
+      "status": "calibrated",
+      "source_ids": ["src-004"],
+      "last_verified": "2026-11-02"
+    },
+    "critical_failure_modes": {
+      "value": ["generic output", "unsupported certainty", "unapproved external action", "unverified completion"],
+      "status": "confirmed",
+      "source_ids": ["src-001", "src-004"],
+      "last_verified": "2026-11-02"
+    },
+    "approved_examples": {
+      "value": ["recommendation with evidence, trade-offs and next action"],
+      "status": "calibrated",
+      "source_ids": ["src-004"],
+      "last_verified": "2026-11-02"
+    },
+    "rejected_examples": {
+      "value": ["long generic list without a recommendation"],
+      "status": "calibrated",
+      "source_ids": ["src-004"],
+      "last_verified": "2026-11-02"
+    },
+    "calibration_choices": {
+      "value": ["advance with declared reversible assumption", "recommend one viable alternative", "challenge weak framing with an alternative"],
+      "status": "calibrated",
+      "source_ids": ["src-004"],
+      "last_verified": "2026-11-02"
+    },
+    "validation_results": {
+      "value": ["representative task passed", "decision passed", "approval boundary passed", "adapted output passed"],
+      "status": "calibrated",
+      "source_ids": ["src-004"],
+      "last_verified": "2026-11-02"
+    }
+  }
+}
+

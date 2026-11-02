@@ -1,0 +1,10 @@
+{
+  "schema_version": "0.2.0",
+  "source_policy": {
+    "scope": "explicitly_supplied_only",
+    "retain_originals": false,
+    "retention": "metadata_and_approved_claims_only"
+  },
+  "sources": []
+}
+

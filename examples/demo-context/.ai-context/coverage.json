@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.2.0",
+  "applicable_fields": 48,
+  "resolved_fields": 48,
+  "coverage_percent": 100,
+  "critical_fields": 25,
+  "confirmed_critical_fields": 25,
+  "open_conflicts": [],
+  "missing_fields": [],
+  "accepted_safe_defaults": [],
+  "not_applicable_fields": [
+    "creator",
+    "developer",
+    "founder_and_strategy",
+    "learning"
+  ],
+  "activated_modules": ["consultant", "research"],
+  "source_consent_complete": true,
+  "collaboration_contract_confirmed": true,
+  "calibration_complete": true,
+  "use_case_tests_passed": true,
+  "user_approved": true,
+  "status": "complete"
+}
+

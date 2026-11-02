@@ -1,15 +1,15 @@
 # AI Context Installer
 
 > [!IMPORTANT]
-> When a user supplies this repository and says they want to install their AI context, treat that as installation intent. Read `BOOTSTRAP.md` and begin read-only environment detection. Do not merely summarize the repository or request a more detailed prompt.
+> When a user supplies this repository and asks to install or create their AI context, treat that as installation intent. Read `BOOTSTRAP.md` and start the installer. Do not merely summarize the repository or ask the user to write a longer installation prompt.
 
-AI Context Installer creates a small local workspace that gives Claude or Codex durable, user-approved context about role, priorities, projects, decisions, working preferences and boundaries.
+AI Context Installer builds a portable collaboration profile for Claude and Codex. It combines a short guided conversation with user-approved CVs, documents, websites, social profiles, repositories and examples, then compiles the result into concise runtime instructions.
 
-It is not a database, global memory service, RAG system, transcript archive or autonomous agent. Context applies when the installed folder is opened or attached to a compatible agent session.
+The product describes how an AI should understand and collaborate with a person. It is not a second brain, project tracker, database, RAG system, transcript archive or autonomous memory service.
 
 ## Quick start
 
-Open Claude Code, Claude Co-Work with local folder access, or Codex and send only:
+Open Claude Code, Claude Co-Work with local folder access, or Codex and send:
 
 ```text
 Quiero instalar mi contexto para IA:
@@ -17,54 +17,62 @@ Quiero instalar mi contexto para IA:
 https://github.com/afmanu/ai-context-installer
 ```
 
-The repository contains the remaining instructions. The installer should ask only for an approved destination, five short personalization answers, corrections to the preview and consent before writing.
+The repository contains the remaining instructions. The profile is completed through at most six user interactions:
+
+1. initial scope questions;
+2. source contribution;
+3. detected gaps;
+4. collaboration contract review;
+5. calibration and closure;
+6. final approval.
+
+Sources should answer most fields. The installer asks only for information that remains missing, contradictory or unconfirmed.
 
 ## What gets installed
 
 ```text
-my-ai-context/
+my-ai-profile/
 ├── START-HERE.md
-├── PROFILE.md
-├── PRIORITIES.md
-├── PROJECTS.md
-├── DECISIONS.md
-├── BOUNDARIES.md
-├── INBOX.md
+├── AI-CONTEXT.md
 ├── AGENTS.md
 ├── CLAUDE.md
 └── .ai-context/
+    ├── profile.json
+    ├── sources.json
+    ├── coverage.json
     ├── state.md
     ├── installation-report.md
-    ├── operating-guide.md
-    └── workflows/
-        ├── capture-context.md
-        ├── prepare-brief.md
-        └── resume-work.md
+    └── operating-guide.md
 ```
 
-## Core behaviors
+`AI-CONTEXT.md` is the concise profile consumed during normal work. The `.ai-context/` files preserve the structured profile, source provenance, completion evidence and installation report.
 
-- Retrieve confirmed context without inventing missing information.
-- Keep global context separate from project-specific context.
-- Preview context updates before writing them.
-- Preserve corrections and mark superseded information clearly.
-- Prepare a sourced situation brief.
-- Resume a project from its recorded state and next step.
+## Completion rule
+
+Installation is complete only when:
+
+- every applicable profile field is resolved;
+- every critical field is confirmed;
+- no critical conflict remains open;
+- source permissions and privacy rules are recorded;
+- calibration passes for the activated use cases;
+- the user approves the final profile;
+- every installed file passes readback validation.
+
+The installer never fills gaps by presenting an inference as a confirmed fact.
 
 ## Safety defaults
 
-- Read-only inspection starts automatically.
-- The user approves the destination and first write.
-- Existing files are preserved by default.
-- Passwords, API keys, private keys and recovery phrases are never requested or stored.
+- Read-only runtime and destination inspection starts automatically.
+- Only sources explicitly supplied by the user may be consulted.
+- Source originals are not copied into the installed profile.
+- Credentials, authentication material and sensitive identifiers are never requested or stored.
 - No global agent configuration is modified.
-- No external service is connected.
+- The complete profile and destination require final approval before installation.
 
 ## Development status
 
-This repository is an initial local beta candidate. The first validation targets are Claude and Codex on a newly created destination folder. Adopting an existing workspace is outside the first release.
-
-See `QUICKSTART-ES.md`, `INSTALL.md` and `examples/demo-context/`.
+This repository is a local beta candidate. Initial validation targets Claude and Codex using a new dedicated destination folder. See `QUICKSTART-ES.md`, `INSTALL.md` and `examples/demo-context/`.
 
 ## License
 

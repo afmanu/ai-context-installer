@@ -1,10 +1,11 @@
 # Installation report
 
-Installer version: 0.1.0-beta.0
+Installer version: 0.2.0-beta.0
 Destination: {{DESTINATION}}
 Runtime: {{RUNTIME}}
 Completed: {{DATE_TIME}}
 Verification status: {{VERIFICATION_STATUS}}
+Profile coverage: {{PROFILE_COVERAGE}}
 
 ## Created
 
@@ -18,6 +19,10 @@ Verification status: {{VERIFICATION_STATUS}}
 
 {{BLOCKED_ITEMS}}
 
+## Source retention
+
+{{SOURCE_RETENTION_RESULTS}}
+
 ## Verification
 
 {{VERIFICATION_RESULTS}}
@@ -29,6 +34,6 @@ Verification status: {{VERIFICATION_STATUS}}
 ## First safe action
 
 ```text
-Prepárame un brief de situación utilizando únicamente mi contexto confirmado.
+Lee mi perfil y dime cómo debes colaborar conmigo antes de empezar una tarea.
 ```
 

@@ -1,29 +1,29 @@
 # Roadmap
 
-## 0.1.0 beta candidate
+## 0.2.0 beta candidate
 
 | Milestone | Status | Exit criterion |
 |---|---|---|
-| Product contract and source map | Complete | Scope, provenance and exclusions documented |
-| Installed context schema | Complete | Demo satisfies the output contract |
-| Minimal-prompt bootstrap | Implemented, unverified | Real Claude and Codex runs start without an expanded prompt |
-| Resumable onboarding | Implemented, unverified | Interrupted run resumes from `.ai-context/state.md` |
-| Preview, consent and no-overwrite behavior | Implemented, unverified | Real run creates only approved files in an empty destination |
-| Capture, brief and resume workflows | Implemented, fixture-tested | Runtime tests preserve states, scopes and boundaries |
-| Claude and Codex adapters | Initial | At least one clean installation succeeds in each runtime |
+| Finite profile schema | Implemented | Universal and conditional fields have resolution rules |
+| Evidence and provenance | Implemented | Approved sources produce traceable candidate claims |
+| Six-interaction SCP flow | Implemented, unverified | A real installation reaches approval without extra onboarding interactions |
+| Gap closure | Implemented, unverified | Interaction 3 contains every known factual blocker |
+| Collaboration contract | Implemented, fixture-tested | Behavioral rules are confirmed independently from factual identity |
+| Calibration and completion | Implemented, fixture-tested | Demo reaches 100% applicable coverage with no critical conflict |
+| Claude and Codex adapters | Initial | One clean installation succeeds in each runtime |
 | Package validation | Complete | `npm test` and `npm run validate` pass |
-| External beta | Pending | At least three users install without repository knowledge |
-| Public GitHub release | Pending | Beta evidence, sanitized issues and release checklist reviewed |
+| External beta | Pending | Three users complete a profile without repository knowledge |
+| Public GitHub release | Pending | Beta evidence and release checklist are reviewed |
 
 ## Later candidates
 
 - Adopt an existing workspace without replacing its conventions.
-- Review and expire stale context.
-- Add project-specific context files when a single `PROJECTS.md` no longer scales.
-- Add Cursor after Claude and Codex behavior is verified.
-- Export a minimal context summary for a separate chat without copying the full workspace.
+- Add Cursor and ChatGPT adapters after Claude and Codex are verified.
+- Refresh an approved profile through a diff-based update flow.
+- Add optional source connectors only when file and URL contribution is insufficient.
+- Export task-specific context without exposing the full profile.
 
 ## Evidence gate
 
-Do not add RAG, a database, global configuration, synchronization, multi-agent orchestration or a dashboard without a beta problem that the file-based design cannot solve.
+Do not add RAG, a database, global configuration, synchronization, multi-agent orchestration or a dashboard without a beta problem the file-based design cannot solve.
 

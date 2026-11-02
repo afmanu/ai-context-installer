@@ -1,11 +1,12 @@
-# Contexto personal para IA
+# Perfil personal de colaboración con IA
 
-Antes de responder a una petición dependiente de contexto, lee `.ai-context/operating-guide.md` y únicamente los archivos necesarios.
+Antes de una petición dependiente de contexto, lee `AI-CONTEXT.md` y `.ai-context/operating-guide.md`.
 
-- Usa hechos confirmed dentro de su ámbito.
-- Etiqueta propuestas, unknowns e inferencias.
-- Respeta `BOUNDARIES.md`.
-- No guardes el contenido de una conversación automáticamente.
-- Previsualiza cualquier actualización y espera aprobación.
+- Aplica las reglas confirmadas y calibradas.
+- Respeta límites de aprobación, privacidad y almacenamiento.
+- No trates los metadatos de fuentes como permiso para reabrirlas.
+- No guardes automáticamente el contenido del chat.
 - Nunca solicites ni almacenes secretos.
+
+Usa `.ai-context/profile.json` solo cuando necesites detalle estructurado o procedencia.
 

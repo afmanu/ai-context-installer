@@ -1,48 +1,28 @@
 # Installation state
 
-Installer version: 0.1.0-beta.0
+Installer version: 0.2.0-beta.0
 Destination: {{DESTINATION}}
 Runtime: {{RUNTIME}}
 State: {{STATE}}
+Current interaction: {{INTERACTION}}
 Last checkpoint: {{DATE_TIME}}
 
-## Confirmed answers
+## Gates
 
-### Role and responsibilities
-
-Status: {{Q1_STATUS}}
-
-{{Q1_ANSWER}}
-
-### Priorities
-
-Status: {{Q2_STATUS}}
-
-{{Q2_ANSWER}}
-
-### Projects
-
-Status: {{Q3_STATUS}}
-
-{{Q3_ANSWER}}
-
-### Working preferences
-
-Status: {{Q4_STATUS}}
-
-{{Q4_ANSWER}}
-
-### Boundaries
-
-Status: {{Q5_STATUS}}
-
-{{Q5_ANSWER}}
+- Scope locked: {{SCOPE_STATUS}}
+- Sources processed: {{SOURCE_STATUS}}
+- Factual coverage: {{FACTUAL_COVERAGE}}
+- Collaboration contract: {{CONTRACT_STATUS}}
+- Calibration: {{CALIBRATION_STATUS}}
+- Total coverage: {{TOTAL_COVERAGE}}
+- Final approval: {{APPROVAL_STATUS}}
+- Verification: {{VERIFICATION_STATUS}}
 
 ## Resume point
 
 {{RESUME_POINT}}
 
-## Preview status
+## Blockers
 
-{{PREVIEW_STATUS}}
+{{BLOCKERS}}
 

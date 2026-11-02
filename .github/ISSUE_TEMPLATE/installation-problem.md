@@ -17,13 +17,17 @@ assignees: ""
 
 Use the state name from `.ai-context/state.md` when available.
 
+- Interaction number:
+- Coverage status:
+- Last completed gate:
+
 ## What happened
 
 Describe the smallest reproducible sequence.
 
 ## Sanitized error
 
-Do not include context files, credentials, personal information or complete private paths.
+Do not include profile files, source contents, credentials, personal information or complete private paths.
 
 ## Recovery attempted
 

@@ -5,29 +5,35 @@
 ```text
 not_started
 runtime_detected
-destination_selected
-checkpoint_approved
-interview_in_progress
-preview_ready
+interaction_1_scope
+interaction_2_sources
+interaction_3_gaps
+interaction_4_contract
+interaction_5_calibration
+interaction_6_approval
 build_approved
 files_created
 verified
 handed_off
 blocked
+cancelled
+needs_expansion
 ```
 
 ## Transition rules
 
 - Read-only runtime detection may start from `not_started`.
-- `destination_selected` requires an absolute, dedicated destination.
-- `checkpoint_approved` requires approval to create `.ai-context/state.md`.
-- Each interview answer is checkpointed before the next question.
-- `build_approved` requires the complete file preview and explicit approval.
-- `verified` requires readback against `specs/output-contract.md`.
-- `handed_off` requires a verification result and first safe action.
-- Any missing capability moves to `blocked` with a reason and recovery instruction.
+- Interaction 1 includes destination selection, state-file approval and initial scope questions.
+- Interaction 2 requires locked scope and processes every approved source.
+- Interaction 3 requires a complete source extraction pass and closes all factual gaps.
+- Interaction 4 requires 100% factual coverage and produces a complete collaboration contract.
+- Interaction 5 requires a confirmed contract and resolves calibration and behavioral gaps.
+- Interaction 6 requires 100% coverage and shows the complete output preview.
+- `build_approved` requires explicit final approval.
+- `verified` requires readback against `specs/output-contract.md` and all gates in `specs/completion-schema.md`.
+- Missing critical information, permission or capability moves to `blocked` with an exact reason.
 
 ## Resume
 
-Read `.ai-context/state.md`, confirm the destination still matches and continue from the next incomplete step. Do not ask confirmed questions again. If state and files disagree, inspect and report the difference before writing.
+Read `.ai-context/state.md`, confirm the destination and interaction number, then continue from the first incomplete gate. Do not repeat resolved questions or reprocess unchanged sources. If state and files disagree, inspect and report the difference before writing.
 

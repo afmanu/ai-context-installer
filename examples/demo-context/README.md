@@ -1,14 +1,14 @@
-# Demo context
+# Demo profile
 
-This is a synthetic installed workspace for Alex Rivera, a fictional independent operations consultant.
+This synthetic installed profile belongs to Alex Rivera, a fictional independent operations and AI-workflow consultant.
 
 Open this folder in Claude or Codex and test:
 
-1. Who is Alex and how should you collaborate?
-2. What are the current priorities?
-3. Where did Client Onboarding System stop?
-4. Prepare a situation brief using only confirmed context.
-5. What information is still unknown?
+1. How should you collaborate with Alex?
+2. What technical level should you assume?
+3. Which actions require approval?
+4. How should you help with a client recommendation?
+5. Which information must remain outside the profile?
 
-The demo contains no real personal information.
+The demo contains no real personal information or source originals.
 

@@ -1,12 +1,12 @@
 # Empieza aquí
 
-Este es un contexto ficticio para probar AI Context Installer.
+Esta carpeta contiene un perfil ficticio generado por AI Context Installer.
 
-Abre esta carpeta con Claude o Codex y pide:
+Abre la carpeta con Claude o Codex y pide:
 
 ```text
-Prepárame un brief de situación utilizando únicamente mi contexto confirmado.
+Lee mi perfil y dime cómo debes colaborar conmigo antes de empezar una tarea.
 ```
 
-El agente debe leer solo los archivos necesarios, diferenciar hechos de sugerencias y respetar `BOUNDARIES.md`.
+El agente debe utilizar `AI-CONTEXT.md`, respetar las aprobaciones registradas y no tratar las fuentes como permiso para volver a abrirlas.
 
