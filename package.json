@@ -1,0 +1,16 @@
+{
+  "name": "ai-context-installer",
+  "version": "0.1.0-beta.0",
+  "private": true,
+  "description": "Agent-guided installer for a local, portable AI context workspace.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/validate-package.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
