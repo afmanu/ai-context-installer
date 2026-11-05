@@ -7,7 +7,7 @@ AI Context Installer creates a portable profile that teaches an AI who a person 
 
 ## Status
 
-**Public beta candidate.** The package contract, structured profile, synthetic demo and local validation are implemented. Blind installations in fresh Claude and Codex sessions are still pending.
+**Public beta candidate.** The package contract, structured profile, synthetic demo and local validation are implemented. A first external tester completed a link-only blind installation successfully; separate Claude and Codex verification is still pending.
 
 ## The problem it solves
 

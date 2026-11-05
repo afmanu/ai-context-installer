@@ -1,5 +1,13 @@
 # Beta testing
 
+## External blind validation
+
+| Date | Prompt | Outcome | Runtime details |
+|---|---|---|---|
+| 2026-11-05 | Repository link only | Installation reported complete with no issues | Not recorded |
+
+This validates the link-only entry experience with one external user. It does not mark the Claude or Codex columns below as passed because the runtime and sanitized scenario evidence were not recorded.
+
 ## Required scenarios
 
 | Scenario | Claude | Codex | Result |
